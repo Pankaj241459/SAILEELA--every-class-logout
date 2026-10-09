@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SAILEELATESTCLASS.Registerrole">
+        <methods>
+          <include name="setup"/>
+          <include name="registernewrole" invocation-numbers="0"/>
+          <include name="logoutAndCloseAppium"/>
+          <include name="Editnewrole" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="viewnewrole" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="finishReport"/>
+        </methods>
+      </class> <!-- SAILEELATESTCLASS.Registerrole -->
+      <class name="SAILEELATESTCLASS.Registeruser">
+        <methods>
+          <include name="setup"/>
+          <include name="logoutAndCloseAppium"/>
+          <include name="afterTest"/>
+          <include name="startReport"/>
+          <include name="finishReport"/>
+          <include name="updatenewuser"/>
+          <include name="registernewuser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SAILEELATESTCLASS.Registeruser -->
+      <class name="SAILEELATESTCLASS.Exportsuppliewisereportreport">
+        <methods>
+          <include name="setup"/>
+          <include name="logoutAndCloseAppium"/>
+          <include name="afterTest"/>
+          <include name="exportreport"/>
+          <include name="startReport"/>
+          <include name="finishReport"/>
+        </methods>
+      </class> <!-- SAILEELATESTCLASS.Exportsuppliewisereportreport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
